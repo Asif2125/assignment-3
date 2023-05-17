@@ -2,3 +2,17 @@
     font-family: 'Roboto Mono', monospace;
     /* font-family: 'Poppins', sans-serif; */
 }
+
+@media (min-width: 992px) {
+    .display-lg-4 {
+        display: block;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .display-6 {
+        display: block;
+        font-size: 1.5rem;
+    }
+}
