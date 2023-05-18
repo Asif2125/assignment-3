@@ -3,16 +3,21 @@
     /* font-family: 'Poppins', sans-serif; */
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 575px) {
     .display-lg-4 {
         display: block;
         font-size: 2.5rem;
     }
-}
+} */
 
-@media (max-width: 991px) {
-    .display-6 {
+@media (max-width: 576px) {
+
+    /* .display-6 {
         display: block;
         font-size: 1.5rem;
+    } */
+    .display-lg-4 {
+        display: block;
+        font-size: 1.2rem;
     }
 }
